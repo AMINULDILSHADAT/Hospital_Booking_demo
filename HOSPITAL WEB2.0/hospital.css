@@ -1,0 +1,396 @@
+/* home page css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+    
+}
+.nav_ul{
+    font-weight: 600;
+    text-align: center;
+}
+.nav_li:hover{
+    background-color: #e677cb;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: medium;
+    color: white;
+    
+}
+.logo{
+    color: rgb(52, 50, 50);
+}
+/*--------------first page----------------------- */
+.first_page{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.first_page h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 5px 20px black;
+}
+.first_page h4{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.drpartment_row1{
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(30,197,250,1) 100%);
+background-size: cover;
+background-position: center;
+border-radius: 20px;
+padding: 20px;
+}
+.our_dptmt{
+    
+    font-weight: bold;
+    text-shadow: 2px 10px 30px rgb(50, 189, 244);
+}
+.cardtitle{
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+.dprt_card:hover{
+    background: linear-gradient(0deg, rgba(180,250,250,1) 6%, rgba(119,238,209,1) 54%, rgba(32,230,223,1) 90%);
+    border-radius: 15px;
+
+}
+.Third_sec_row{
+    background-color: antiquewhite;
+
+}
+.Third_sec_rowh1{
+    font-size: 60px; 
+    font-weight: 600;
+    letter-spacing: 2;
+    padding-top: 60px;
+}
+.sport-img{
+    padding: 50px;
+}
+.sport-img-text{
+    font-weight: 500;
+    font-size: 70px;
+    font-style: italic;
+    color:#000;
+    text-shadow: 2px 5px 20px #fff;
+    
+}
+.sp_head{
+    font-weight: bold !important;
+    text-shadow: 2px 5px 20px black;
+    }
+    .exploresec{
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,193,193,1) 21%, rgba(23,181,208,1) 70%, rgba(10,55,64,1) 95%, rgba(17,74,85,1) 100%);
+    }
+.sport-img{
+    background-image:url(images/sports2.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name:sport-img ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite}
+
+    @keyframes sport-img{
+        0%{background-image: url(images/sports3.png);
+        background-size: cover;}
+        25%{background-image: url(images/sports.png);}
+        55%{background-image: url(images/sports2.png);}
+        70%{background-image: url(images/sports4.png);}
+        80%{background-image: url(images/sports3.png);}
+        100%{background-image: url(images/doctorsteam.png);}
+       
+
+    }
+
+
+.sport-img-tex-h3{
+    font-weight:500;
+    font-style: italic;
+    
+    color:black;
+  font-size: 20px;
+  -webkit-text-stroke: 1px black;
+
+    
+}
+.footer-sec{
+    background: radial-gradient(circle, rgba(29,164,152,1) 0%, rgba(33,143,144,1) 100%);
+}
+.footer-list{
+    list-style-type: none;
+    color: #fff;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.footer-list li:hover{
+    color: rgb(217, 33, 125);
+    text-shadow: 2px 5px 20px #fff;
+}
+.footer_name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+.footer-about{
+    font-style: italic;
+    font-weight: 600;
+}
+.ft-hospital-name{
+    font-weight: 600;
+}
+.footer-list-ul-a:hover{
+    color: rgb(217, 33, 125);
+    text-shadow: 2px 5px 20px #fff;
+    color:#fff;
+    text-decoration: none;
+
+}
+.footer-list-ul a:hover{
+    color: rgb(217, 33, 125);
+    text-shadow: 2px 5px 20px #fff;
+}
+.footer-ul-a:hover{
+    color: rgb(217, 33, 125);
+    text-shadow: 2px 5px 20px #fff;
+}
+.bottom-div{
+    background-color:gray;
+
+}
+.bottom-div p{
+    color: #fff !important;
+
+}
+.fb,.insta,.twitter,.linkd{
+    color: #fff;
+}
+.fb:hover{
+    color: blue;
+}
+
+.insta:hover{
+    color: red;
+}
+.twitter:hover{
+    color: blue;
+}
+.linkd:hover{
+    color: blue;
+   
+}
+
+@media screen and (max-width: 600px){
+    .first_page{
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(17,120,117,1) 100%);}
+        .drpartment_row1{
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(30,197,250,1) 100%);
+            background-size: cover;
+            background-position: center;
+            padding: 7px;
+            }
+            .Third_sec_rowh1{
+                font-size: 20px; 
+                font-weight: 600;
+                letter-spacing: 2;
+                padding-top: 10px;
+            }
+            .sport-img{
+                padding: 20px;
+            }
+            .sport-img-text{
+                font-weight: 500;
+                font-size: 40px;
+                font-style: italic;
+                color:#fff;
+                text-shadow: 2px 10px 20px black;
+                
+            }
+            .logosec_ft{
+                margin-left: 60px;
+            }
+            .fb:hover{
+                color: blue;
+            }
+            
+            .insta:hover{
+                color: red;
+            }
+            .twitter:hover{
+                color: blue;
+            }
+            .linkd:hover{
+                color: blue;
+               
+            }
+            
+            .sport-img{
+                background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(112,192,247,0.5634628851540616) 35%, rgba(144,205,244,1) 42%, rgba(20,89,103,1) 100%);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                animation-name:sport-img ;
+                animation-duration: 10s;
+                animation-iteration-count: infinite}
+                @keyframes sport-img{
+                    0%{background-image: url(images/sports3.png);
+                    background-size: cover;}
+                    25%{background-image: url(images/sports.png);}
+                    55%{background-image: url(images/sports2.png);}
+                    70%{background-image: url(images/sports4.png);}
+                    80%{background-image: url(images/sports3.png);}
+                    100%{background-image: url(images/doctorsteam.png);}
+       
+                   
+            
+                }
+                
+}
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .first_page{
+        background: linear-gradient(0deg, rgba(206,242,242,1) 6%, rgba(57,203,199,1) 95%);
+}
+.drpartment_row1{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(226,34,89,1) 22%, rgba(94,223,211,1) 91%, rgba(112,227,169,1) 100%);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    }
+    .Third_sec_rowh1{
+        font-size: 30px; 
+        font-weight: 600;
+        letter-spacing: 2;
+        padding-top: 30px;
+    }
+}
+
+
+
+/*---------------about page css section started-----------*/
+.about-img{
+    background: radial-gradient(circle, rgba(18,135,159,1) 0%, rgba(186,215,222,1) 49%, rgba(18,135,159,1) 100%);
+   
+}
+.about-head{
+    color:bisque;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 5px 20px black;
+    
+}
+.about-txt{
+    background: linear-gradient(0deg, rgba(212,233,232,0.8071603641456583) 10%, rgba(218,246,240,1) 63%);
+}
+.about-txt-h1{
+    color: #1ec2a1;
+    font-weight: bold;
+    text-shadow: 2px 10px 20px white;
+
+}
+.about-txt-p{
+    color:black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.location_div{
+    background: linear-gradient(0deg, rgba(99,223,146,0.8071603641456583) 0%, rgba(25,102,62,1) 57%);
+}
+.location-bd{
+    border: 2px solid red;
+}
+
+/* appointment page css started  */
+.main{
+   background-image: url(images/team.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   padding: 75px 0px;
+}
+.form-box{
+    background-color:#18c0c0;
+    backdrop-filter:blur(70px);
+    border-radius: 20px;
+    border: 1px solid #fff;
+
+}
+form h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    
+    font-size: 30px;
+    text-shadow: 2px 10px 20px #000;
+}
+.form-box input{
+    border-radius: 10px;
+}
+.form-box select{
+    border-radius: 10px;
+}
+.hospital_abt{
+    font-weight: bold;
+    text-shadow: 2px 5px 20px black;
+}
+#errorMessage{
+    color: red;
+}
+#appoiment-form-btn{
+    background-color: rgb(32, 155, 32);
+    border: none !important;
+}
+#appoiment-form-btn:hover{
+    background-color:rgb(10, 64, 201) !important;
+    border: 2px solid black !important;
+}
+
+/*========================= insurence section css started=========== */
+.ins-firt-pg{
+    background: radial-gradient(circle, rgba(10,210,210,1) 6%, rgba(25,120,182,1) 54%, rgba(48,205,235,1) 81%);
+    color:white;
+   
+}
+
+.ins-firt-pg h3{
+    font-size: 30px;
+    text-shadow: 2px 5px 20px black;
+    font-style: italic;
+    font-weight: bold !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ins-firt-pg h1{
+   
+    font-size: 62px;
+    color: #353030;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.centercol{
+    background-color: red;
+}
+.isrnd-sec-pg{
+    background-color: gray;
+}
+.about-headh1{
+    font-size: 62px;
+    color: #fff;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
